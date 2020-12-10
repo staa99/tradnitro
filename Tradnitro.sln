@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tradnitro.Web", "Tradnitro.Web\Tradnitro.Web.csproj", "{5ADBA4F4-F138-498C-8846-C0B326A80AC1}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tradnitro.Domain", "Tradnitro.Domain\Tradnitro.Domain.csproj", "{0DEF96D8-EBFE-4D7B-AECB-60E4D985515C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tradnitro.Domain", "Tradnitro.Domain\Tradnitro.Domain.csproj", "{0DEF96D8-EBFE-4D7B-AECB-60E4D985515C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tradnitro.Data", "Tradnitro.Data\Tradnitro.Data.csproj", "{6BFF2E34-28B3-4D22-9ECC-3F581B65DC46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tradnitro.Data", "Tradnitro.Data\Tradnitro.Data.csproj", "{6BFF2E34-28B3-4D22-9ECC-3F581B65DC46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tradnitro.Shared", "Tradnitro.Shared\Tradnitro.Shared.csproj", "{D320A166-D749-43A1-8406-ED29AC20750C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tradnitro.Web", "Tradnitro.Web\Tradnitro.Web.csproj", "{6CD91FD3-12C2-45E5-AFB6-F653A008103D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5ADBA4F4-F138-498C-8846-C0B326A80AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5ADBA4F4-F138-498C-8846-C0B326A80AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5ADBA4F4-F138-498C-8846-C0B326A80AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5ADBA4F4-F138-498C-8846-C0B326A80AC1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0DEF96D8-EBFE-4D7B-AECB-60E4D985515C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DEF96D8-EBFE-4D7B-AECB-60E4D985515C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DEF96D8-EBFE-4D7B-AECB-60E4D985515C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -24,5 +25,19 @@ Global
 		{6BFF2E34-28B3-4D22-9ECC-3F581B65DC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BFF2E34-28B3-4D22-9ECC-3F581B65DC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BFF2E34-28B3-4D22-9ECC-3F581B65DC46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D320A166-D749-43A1-8406-ED29AC20750C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D320A166-D749-43A1-8406-ED29AC20750C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D320A166-D749-43A1-8406-ED29AC20750C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D320A166-D749-43A1-8406-ED29AC20750C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD91FD3-12C2-45E5-AFB6-F653A008103D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD91FD3-12C2-45E5-AFB6-F653A008103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD91FD3-12C2-45E5-AFB6-F653A008103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD91FD3-12C2-45E5-AFB6-F653A008103D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A3F2632-F56D-4595-ACB3-1C0F3791002A}
 	EndGlobalSection
 EndGlobal

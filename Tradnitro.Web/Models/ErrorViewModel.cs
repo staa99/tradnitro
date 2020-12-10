@@ -1,6 +1,5 @@
 using System;
 
-
 namespace Tradnitro.Web.Models
 {
     public class ErrorViewModel

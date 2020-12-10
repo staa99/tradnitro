@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,7 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="EntityConfigurations" />
+      <ProjectReference Include="..\Tradnitro.Shared\Tradnitro.Shared.csproj" />
     </ItemGroup>
 
 </Project>
